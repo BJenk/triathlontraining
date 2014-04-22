@@ -13,6 +13,15 @@ ul,li { list-style-type: none;
         margin:0;
         padding:0; }
 
+a:hover{
+	text-decoration:none;
+}
+
+
+ .navbar-form {
+padding: 3px 0px;
+}
+
 .page-container{
 	margin-top: 100px;
 }
@@ -44,7 +53,12 @@ ul,li { list-style-type: none;
 }
 
 .hero-wrap:after{ 
-    background: url(../img/png.png) repeat top left;
+    background-image: url(../img/logo.png);
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+
 }
 
 
@@ -119,6 +133,7 @@ border: 1px solid #999;
 }
 
 
+
 /*
 -------------learn------------
 */
@@ -126,6 +141,9 @@ border: 1px solid #999;
 
 .feature-box{
 	margin-bottom: 40px;
+}
+.feature-box h3{
+	text-align: center;
 }
 
 .circle-feature{
@@ -144,7 +162,42 @@ border: 1px solid #999;
 	
 }
 
+.learn-page {
+	margin-bottom: 30px;
+}
 
+.learn-page p{
+	font-size: 1.2em;
+}
+
+.learn-page .infobox{
+	background-color: #f4f4f4;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.learn-page .infobox h3{
+	margin-top: 0px; 
+
+}
+
+.learn-page .infobox li{
+	font-size: 1.5em;
+	color: #66b745;
+}
+
+.learn{
+	max-width: 46%;
+	margin-top: 2%;
+	margin-right: 2%;
+	margin-left: 2%;
+	float: left;
+	text-align: center;
+}
+
+.learn h4{
+	margin-bottom: 0px;
+}
 
 /*
 -------------Training Plans------------
@@ -295,27 +348,160 @@ margin-top: 20px;
 -------------blog------------
 */
 
+.blog-bg{
+	background-color: #DEEEDD;
+}
+
+.blog-sidebar{
+	
+}
+
+.blog-sidebar h3{
+ 	margin-top: 0px;
+ 	text-align: left;
+}
+
+.blog-sidebar p{
+	padding: 5px;
+}
 
 .blog{
 	margin-top: 20px;
+
 }
 
 
 .blog-post{
-
+	border: 1px solid #D6D6D6;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
 }
 
-.blog-post h3{
+.blog-post p{
+	font-size: 1.2em;
+}
+
+.blog-post h2{
 	color:#66b745;
 }
+
+.tags{
+	margin-left: 0px;
+} 
+
+.tags a{ 
+	color: #fff;	
+} 
+
+.tags li{
+	background-color: #66b745;
+	display: inline;
+	padding: 5px;
+	line-height: 2em;
+}
+
+.tags li:hover{
+	background-color: #367303;
+	display: inline;
+	padding: 5px;
+	line-height: 2em;
+}
+
+.blog-tags{
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+.blog-tags li{
+	font-size: 0.8em;
+	color: #000;
+	text-indent: 5px;
+	line-height: 2em;
+	 
+
+}
+
+.blog-tags li:hover{
+	color:  #66b745;	
+}
+
+
+
 
 .byline{
 	content: By;
 	font-style: italic;
 	color: #666;
+	margin-top: 10px;
 }
 .byline:before {
    content: "By ";
+}
+
+.blog-icon{
+	width: 100%;
+	max-width: 30px;
+	margin-top: 10px;
+}
+
+.date{
+color: #fff;
+width: 65px;
+margin-top: 20px;
+margin-left: -36px;
+background-color: #66b745;
+border-bottom: 2px solid #367303;
+border-right: 2px solid #367303;
+padding: 5px;
+font-weight: bold;
+}
+
+.feature-image{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.article-img{
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+
+.read-more:before{
+	content: "Read more...";
+}
+
+
+.profpic-sm{
+ width: 60px;
+ height: 60px;
+ border:2px solid;
+ float: left;
+ 
+ } 
+
+
+
+.athlete-pic{
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+border-radius: 50%;
+clear: right;
+width: 100%;
+max-width: 150px;
+height: inherit;
+border: 5px solid #5ebb46;
+}
+
+
+
+
+
+.advertisement{
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 
@@ -348,7 +534,7 @@ margin-top: 20px;
 
 .blue-area{
 	background-color: blue;
-	min-height: 200px;
+	height: 100%;
 }
 
 

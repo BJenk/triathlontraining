@@ -1,4 +1,6 @@
-$('a.media').media({width:600, height:800});
+$(document).ready(function(){
+
+  $('a.media').media({width:600, height:800});
 
 var handler = StripeCheckout.configure({
     key: 'pk_test_6pRNASCoBOKtIshFeQd4XMUh',
@@ -19,3 +21,4 @@ var handler = StripeCheckout.configure({
     e.preventDefault();
   });
 
+});
